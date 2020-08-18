@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ul {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    height: 140px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: block;
+}
+
+#header-top {
+    width: 100%;
+    top: 0%;
+    height: 70px;
+    padding-top: 25px;
+}
+
+#header-bottom {
+    width: 730px;
+    background-color: lightgray;
+    height: 50px;
+    margin-left: 175px;
+}
+
+nav {
+    position: absolute;
+    right: 0%;
+    width: 120px;
+    margin-top: 0px;
+    padding-right: 25px;
+}
+
+.nav-links {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 0px;
+
+}
+
+a {
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#header-menu-icon {
+    margin-top: 3px;
+}
+
+#profile-icon {
+    width: 40px;
+    border-radius: 30px;
+}
+
+#main-thing {
+    position: absolute;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    margin-left: 25px;
+}
+
+#main_logo {
+    width: 100px;
+    padding-right: 50px;
+}
+
+#searchbar {
+    width: 720px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 199, 199);
+}
+
+#searchbar:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(189,189,189,0.99);
+-moz-box-shadow: 0px 0px 10px 0px rgba(189,189,189,0.99);
+box-shadow: 0px 0px 10px 0px rgba(189,189,189,0.99);
+}
+
+#search-icon {
+    width: 25px;
+}
+
+#microphone-icon {
+    width: 25px;
+}
+
+#search-field {
+    width: 85%;
+    border: none;
+    font-size: 20px;
+}
+
+#search-field:focus {
+    border: none;
+    outline: none;
+}
+
+.option {
+    background-color: lightblue;
+    height: auto;
+    margin-right: 20px;
+    padding: 16px 12px 12px 10px;
+
+}
+
+.option-icon {
+    width: 20px;
+}
