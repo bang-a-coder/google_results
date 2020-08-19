@@ -12,6 +12,9 @@ header {
     left: 0%;
     right: 0%;
     display: block;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
 }
 
 #header-top {
@@ -19,13 +22,13 @@ header {
     top: 0%;
     height: 70px;
     padding-top: 25px;
+    margin-bottom: 5px;
 }
 
 #header-bottom {
     width: 730px;
-    background-color: lightgray;
-    height: 50px;
     margin-left: 175px;
+    padding-left: 15px;
 }
 
 nav {
@@ -120,14 +123,59 @@ box-shadow: 0px 0px 10px 0px rgba(189,189,189,0.99);
     outline: none;
 }
 
-.option {
-    background-color: lightblue;
-    height: auto;
-    margin-right: 20px;
-    padding: 16px 12px 12px 10px;
+#search-options-list {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
 
+.main-options-wrap {
+    width: min-content;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    align-items: center;
+}
+
+.option-wrap {
+    width: max-content;
+    padding-bottom: 14px;
+    
+}
+
+.option-wrap:hover {
+    width: max-content;
+    padding-bottom: 14px;
+    margin-right: 10px;
+    border-bottom: 3px solid #1A73E8;
+    transition: ease-in 0.10;
+}
+
+.option {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.option-word {
+    position: relative;
+    top: -4px;
+    left: 2px;
 }
 
 .option-icon {
     width: 20px;
+}
+
+#set-tools-wrap {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 24px;
+}
+
+.set-tool {
+    margin: 5px;
+    height: 24px;
+    line-height: 24px;
 }
