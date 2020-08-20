@@ -26,6 +26,7 @@ header {
     border-color: rgb(224, 224, 224);
     border-width: 1px;
     background-color: white;
+    z-index: 100;
 }
 
 #header-top {
@@ -290,4 +291,105 @@ box-shadow: 0px 0px 10px 0px rgba(189,189,189,0.99);
 
 .video-date {
     color: #808080;
+}
+
+.ppl-also-searched {
+    width: 730px;
+}
+
+.search-for-qwrap {
+    width: 100%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+    align-content: stretch;
+    height: 70px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfe1e5;
+    padding: 15px;
+
+}
+
+.search-for-q {
+    font-size: 16px;
+    color: #1a0dab;
+}
+
+.result-images {
+    width: 730px;
+    overflow: hidden;
+}
+
+.images-wrap {
+    width: 800px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+}
+
+.image-div {
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 110px;
+    margin-right: 8px;
+    border: 1px solid #dfe1e5;
+}
+
+.image-div-l {
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 150px;
+    margin-right: 8px;
+    border: 1px solid #dfe1e5;
+}
+
+.image {
+    height: 130px;
+}
+
+.image-tags-wrap {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+.image-tag {
+    padding: 12px;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.image-tag:hover {
+    padding: 12px;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    margin-right: 15px;
+    background-color: #dadce0;
+    cursor: pointer;
+}
+
+footer {
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer div {
+    margin-left: 170px;
+}
+
+footer a {
+    color: #5f6368;
+    padding-right: 27px;
+    margin: 0;
 }
